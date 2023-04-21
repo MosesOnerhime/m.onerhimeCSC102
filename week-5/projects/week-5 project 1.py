@@ -9,4 +9,4 @@ scores = [80, 74, 85, 87, 70, 75, 60, 68, 76, 66, 66, 78, 87, 87, 95, 98, 50, 54
 
 print('Name     | Age  | Height | Scores')
 for i in range(len(name)):
-    print(name[i], age[i], height[i], scores[i])
+    print(name[i], "|", age[i], "|", height[i], "|", scores[i])
